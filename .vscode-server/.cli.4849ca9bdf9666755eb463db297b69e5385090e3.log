@@ -1,5 +1,6 @@
-Listening on 127.0.0.1:43115
-[2024-09-15 23:01:56] info Disposed of connection to running server.
-looking for token b3b949ce-3e0c-42d9-9d84-8b5151921408, got Some("b3b949ce-3e0c-42d9-9d84-8b5151921408")
-[2024-09-15 23:01:57] info Checking /home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/log.txt and /home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/pid.txt for a running server...
-[2024-09-15 23:01:57] info Found running server (pid=35642)
+Listening on 127.0.0.1:34041
+[2024-09-15 23:51:28] info Disposed of connection to running server.
+looking for token efb71d8c-4617-4fb1-9686-a477b9e42cf8, got Some("efb71d8c-4617-4fb1-9686-a477b9e42cf8")
+[2024-09-15 23:51:28] info Checking /home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/log.txt and /home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/pid.txt for a running server...
+[2024-09-15 23:51:28] info Starting server...
+[2024-09-15 23:51:29] info Server started
