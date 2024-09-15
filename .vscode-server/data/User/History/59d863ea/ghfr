@@ -1,0 +1,9 @@
+/.cache
+/.dotnet
+/.ssh
+.bash_profile
+.bash_history
+.bash_logout
+.bashrc
+.viminfo
+.wget-hsts

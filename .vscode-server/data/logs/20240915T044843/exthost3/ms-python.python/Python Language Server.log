@@ -1,0 +1,24 @@
+2024-09-15 05:47:45.010 [info] (Client) Pylance async client (2024.9.1) started with python extension (2024.14.1)
+2024-09-15 05:47:45.821 [info] [Info  - 5:47:45 AM] (29952) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1/dist
+2024-09-15 05:47:45.823 [info] [Info  - 5:47:45 AM] (29952) Pylance language server 2024.9.1 (pyright version 1.1.378, commit ce64adc1) starting
+2024-09-15 05:47:45.823 [info] [Info  - 5:47:45 AM] (29952) Starting service instance "ec2-user"
+2024-09-15 05:47:45.888 [info] [Info  - 5:47:45 AM] (29952) Setting environmentName for service "ec2-user": "3.9.16 (global)"
+2024-09-15 05:47:45.890 [info] [Info  - 5:47:45 AM] (29952) Setting pythonPath for service "ec2-user": "/bin/python"
+2024-09-15 05:47:45.892 [info] [Info  - 5:47:45 AM] (29952) No include entries specified; assuming /home/ec2-user
+2024-09-15 05:47:45.893 [info] [Info  - 5:47:45 AM] (29952) Auto-excluding **/node_modules
+2024-09-15 05:47:45.900 [info] [Info  - 5:47:45 AM] (29952) Auto-excluding **/__pycache__
+2024-09-15 05:47:45.910 [info] [Info  - 5:47:45 AM] (29952) Auto-excluding **/.*
+2024-09-15 05:47:46.084 [info] [Info  - 5:47:46 AM] (29952) Assuming Python version 3.9.16.final.0
+2024-09-15 05:47:46.238 [info] [Info  - 5:47:46 AM] (29952) Found 3 source files
+2024-09-15 05:56:44.742 [info] [Info  - 5:56:44 AM] (29952) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1/dist
+2024-09-15 05:56:44.781 [info] [Info  - 5:56:44 AM] (29952) Background analysis(1) started
+2024-09-15 05:56:45.506 [info] [Info  - 5:56:45 AM] (29952) Indexer background runner(2) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1/dist (index)
+2024-09-15 05:56:45.507 [info] [Info  - 5:56:45 AM] (29952) Indexing(2) started
+2024-09-15 05:56:51.547 [info] [Info  - 5:56:51 AM] (29952) [BG(1)] Long operation: parsing: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1/dist/typeshed-fallback/stdlib/types.pyi (2455ms)
+2024-09-15 05:56:55.113 [info] [Info  - 5:56:54 AM] (29952) [BG(1)] Long operation: binding: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1/dist/typeshed-fallback/stdlib/types.pyi (3679ms)
+2024-09-15 05:57:14.892 [info] [Info  - 5:57:14 AM] (29952) [BG(1)] Long operation: parsing: file:///usr/local/lib/python3.9/site-packages/flask/sansio/app.py (7579ms)
+2024-09-15 05:57:17.477 [info] [Info  - 5:57:16 AM] (29952) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.9/site-packages/flask/sansio/app.py (2203ms)
+2024-09-15 05:57:22.700 [info] [Info  - 5:57:22 AM] (29952) [BG(1)] Long operation: parsing: file:///usr/local/lib/python3.9/site-packages/flask/sansio/scaffold.py (5154ms)
+2024-09-15 05:59:24.377 [info] [Info  - 5:59:24 AM] (29952) [BG(1)] Long operation: parsing: file:///usr/local/lib/python3.9/site-packages/flask/globals.py (3491ms)
+2024-09-15 05:59:39.951 [info] [Info  - 5:59:38 AM] (29952) [BG(1)] Long operation: binding: file:///usr/local/lib/python3.9/site-packages/flask/wrappers.py (3218ms)
+2024-09-15 05:59:45.910 [info] [Info  - 5:59:45 AM] (29952) [BG(1)] Long operation: parsing: file:///usr/local/lib/python3.9/site-packages/werkzeug/wrappers/__init__.py (4673ms)

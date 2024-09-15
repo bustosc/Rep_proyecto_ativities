@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "afterDelay",
+    "remote.SSH.remotePlatform": {
+        "ssh-cursoaws": "linux",
+        "ssh-actividades": "linux"
+    }
+}

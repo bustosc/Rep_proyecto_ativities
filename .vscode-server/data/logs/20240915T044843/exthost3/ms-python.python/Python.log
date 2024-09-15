@@ -1,0 +1,21 @@
+2024-09-15 05:47:42.714 [info] Experiment 'pythonaacf' is active
+2024-09-15 05:47:42.714 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-09-15 05:47:42.714 [info] Experiment 'pythonSurveyNotification' is active
+2024-09-15 05:47:42.714 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-09-15 05:47:42.714 [info] Experiment 'pythonTestAdapter' is active
+2024-09-15 05:47:42.715 [warning] Dir "/home/ec2-user/.pixi/envs" is not watchable (directory does not exist)
+2024-09-15 05:47:42.794 [info] Default formatter is set to null for workspace /home/ec2-user
+2024-09-15 05:47:42.840 [info] Starting Environment refresh
+2024-09-15 05:47:43.458 [info] > pixi --version
+2024-09-15 05:47:43.461 [info] > hatch env show --json
+2024-09-15 05:47:43.461 [info] cwd: .
+2024-09-15 05:47:43.477 [info] Environments refresh finished (event): 638 milliseconds
+2024-09-15 05:47:43.477 [info] Environments refresh paths discovered: 638 milliseconds
+2024-09-15 05:47:43.478 [info] Environment refresh took 639 milliseconds
+2024-09-15 05:47:43.485 [info] > pyenv which python
+2024-09-15 05:47:43.485 [info] cwd: .
+2024-09-15 05:47:43.524 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2024-09-15 05:47:43.534 [info] > /bin/python -I ./.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/interpreterInfo.py
+2024-09-15 05:47:43.574 [info] Python interpreter path: /bin/python
+2024-09-15 05:47:43.700 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2024-09-15 05:47:45.858 [info] Starting Pylance language server.

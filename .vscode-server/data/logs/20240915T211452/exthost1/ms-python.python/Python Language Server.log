@@ -1,0 +1,25 @@
+2024-09-15 21:16:11.253 [info] [Info  - 9:16:11 PM] (35861) Server root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1/dist
+2024-09-15 21:16:11.255 [info] [Info  - 9:16:11 PM] (35861) Pylance language server 2024.9.1 (pyright version 1.1.378, commit ce64adc1) starting
+2024-09-15 21:16:11.255 [info] [Info  - 9:16:11 PM] (35861) Starting service instance "ec2-user"
+2024-09-15 21:16:11.319 [info] [Info  - 9:16:11 PM] (35861) Setting environmentName for service "ec2-user": "3.9.16 (global)"
+2024-09-15 21:16:11.320 [info] [Info  - 9:16:11 PM] (35861) Setting pythonPath for service "ec2-user": "/bin/python"
+2024-09-15 21:16:11.320 [info] [Info  - 9:16:11 PM] (35861) No include entries specified; assuming /home/ec2-user
+2024-09-15 21:16:11.320 [info] [Info  - 9:16:11 PM] (35861) Auto-excluding **/node_modules
+2024-09-15 21:16:11.320 [info] [Info  - 9:16:11 PM] (35861) Auto-excluding **/__pycache__
+2024-09-15 21:16:11.320 [info] [Info  - 9:16:11 PM] (35861) Auto-excluding **/.*
+2024-09-15 21:16:11.367 [info] [Info  - 9:16:11 PM] (35861) Assuming Python version 3.9.16.final.0
+2024-09-15 21:16:11.573 [info] [Info  - 9:16:11 PM] (35861) Found 2 source files
+2024-09-15 21:16:12.676 [info] [Info  - 9:16:12 PM] (35861) Background analysis(1) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1/dist
+2024-09-15 21:16:12.680 [info] [Info  - 9:16:12 PM] (35861) Background analysis(1) started
+2024-09-15 21:16:13.203 [info] [Info  - 9:16:13 PM] (35861) Indexer background runner(2) root directory: file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1/dist (index)
+2024-09-15 21:16:13.204 [info] [Info  - 9:16:13 PM] (35861) Indexing(2) started
+2024-09-15 21:16:14.952 [info] [Info  - 9:16:14 PM] (35861) scanned(2) 84 files over 1 exec env
+2024-09-15 21:16:16.192 [info] [Info  - 9:16:16 PM] (35861) [BG(1)] Long operation: checking: file:///home/ec2-user/server.py (2578ms)
+2024-09-15 21:16:16.194 [info] [Info  - 9:16:16 PM] (35861) [BG(1)] Long operation: analyzing: file:///home/ec2-user/server.py (3276ms)
+2024-09-15 21:16:18.337 [info] [Info  - 9:16:18 PM] (35861) [IDX(2)] Long operation: index execution environment file:///home/ec2-user (2532ms)
+2024-09-15 21:16:18.368 [info] [Info  - 9:16:18 PM] (35861) [IDX(2)] Long operation: index packages file:///home/ec2-user (2584ms)
+2024-09-15 21:16:18.368 [info] [Info  - 9:16:18 PM] (35861) indexed(2) 61 files over 1 exec env
+2024-09-15 21:16:18.421 [info] [Info  - 9:16:18 PM] (35861) Indexing finished(2).
+2024-09-15 21:16:21.420 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2024-09-15 21:16:21.421 [info] (Client) Pylance async client (2024.9.1) started with python extension (2024.14.1)
+2024-09-15 22:08:43.869 [info] [Info  - 10:08:43 PM] (35861) No source files found.

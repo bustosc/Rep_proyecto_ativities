@@ -1,0 +1,109 @@
+2024-09-15 04:48:44.117 [info] 
+
+
+
+
+2024-09-15 04:48:44.126 [info] Extension host agent started.
+2024-09-15 04:48:44.158 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-09-15 04:48:44.178 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-09-15 04:48:44.396 [info] [<unknown>][79e00282][ManagementConnection] New connection established.
+2024-09-15 04:48:44.398 [info] [<unknown>][19bd577f][ExtensionHostConnection] New connection established.
+2024-09-15 04:48:44.523 [info] [<unknown>][19bd577f][ExtensionHostConnection] <3263> Launched Extension Host Process.
+2024-09-15 04:49:10.347 [info] [<unknown>][79e00282][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-15 04:49:10.367 [info] [<unknown>][19bd577f][ExtensionHostConnection] <3263> Extension Host Process exited with code: 0, signal: null.
+2024-09-15 04:49:10.368 [info] Cancelling previous shutdown timeout
+2024-09-15 04:49:10.368 [info] Last EH closed, waiting before shutting down
+2024-09-15 04:51:54.870 [info] [<unknown>][5d0ea9d5][ExtensionHostConnection] New connection established.
+2024-09-15 04:51:54.874 [info] [<unknown>][5d0ea9d5][ExtensionHostConnection] <3578> Launched Extension Host Process.
+2024-09-15 04:51:54.876 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2024-09-15 04:51:54.882 [info] [<unknown>][b7cbe41d][ManagementConnection] New connection established.
+2024-09-15 04:52:22.082 [info] [<unknown>][b7cbe41d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-15 04:52:22.115 [info] [<unknown>][5d0ea9d5][ExtensionHostConnection] <3578> Extension Host Process exited with code: 0, signal: null.
+2024-09-15 04:52:22.115 [info] Cancelling previous shutdown timeout
+2024-09-15 04:52:22.115 [info] Last EH closed, waiting before shutting down
+2024-09-15 04:52:33.806 [info] [<unknown>][9afa7433][ExtensionHostConnection] New connection established.
+2024-09-15 04:52:33.809 [info] [<unknown>][9afa7433][ExtensionHostConnection] <3680> Launched Extension Host Process.
+2024-09-15 04:52:33.810 [info] [<unknown>][cca2b84e][ManagementConnection] New connection established.
+2024-09-15 04:57:22.116 [info] New EH opened, aborting shutdown
+2024-09-15 05:47:24.275 [info] Getting Manifest... ms-python.python
+2024-09-15 05:47:24.397 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ec2-user/.vscode-server/extensions/extensions.json","external":"file:///home/ec2-user/.vscode-server/extensions/extensions.json","path":"/home/ec2-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"}}
+2024-09-15 05:47:24.783 [info] Getting Manifest... ms-python.vscode-pylance
+2024-09-15 05:47:24.810 [info] Getting Manifest... ms-python.debugpy
+2024-09-15 05:47:24.839 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ec2-user/.vscode-server/extensions/extensions.json","external":"file:///home/ec2-user/.vscode-server/extensions/extensions.json","path":"/home/ec2-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-15 05:47:24.840 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ec2-user/.vscode-server/extensions/extensions.json","external":"file:///home/ec2-user/.vscode-server/extensions/extensions.json","path":"/home/ec2-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-15 05:47:28.895 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 3287ms.
+2024-09-15 05:47:29.974 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 3594ms.
+2024-09-15 05:47:30.337 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64: ms-python.debugpy
+2024-09-15 05:47:30.347 [info] Renamed to /home/ec2-user/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64
+2024-09-15 05:47:31.037 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 4650ms.
+2024-09-15 05:47:35.946 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64: ms-python.python
+2024-09-15 05:47:35.983 [info] Renamed to /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64
+2024-09-15 05:47:41.032 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1: ms-python.vscode-pylance
+2024-09-15 05:47:41.054 [info] Renamed to /home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.1
+2024-09-15 05:47:41.094 [info] Extension installed successfully: ms-python.debugpy file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2024-09-15 05:47:41.095 [info] Extension installed successfully: ms-python.python file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2024-09-15 05:47:41.095 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2024-09-15 05:48:06.715 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-15 05:50:46.074 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateIcon (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26482)
+    at I.A.<computed> (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-09-15 05:51:43.953 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateIcon (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26482)
+    at I.A.<computed> (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-09-15 05:53:16.530 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-09-15 05:53:29.961 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-09-15 05:54:31.951 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-15 05:56:44.661 [info] [<unknown>][cca2b84e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-09-15 05:59:08.478 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-15 06:00:42.547 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-15 06:01:54.369 [warning] No ptyHost heartbeat after 6 seconds

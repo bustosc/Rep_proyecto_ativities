@@ -1,0 +1,4 @@
+/.cache
+/.dotnet
+/.ssh
+.bash_profile

@@ -1,0 +1,115 @@
+2024-09-15 21:14:58.593 [info] [main] Log level: Info
+2024-09-15 21:14:58.593 [info] [main] Validating found git in: "git"
+2024-09-15 21:14:58.593 [info] [main] Using git "2.40.1" from "git"
+2024-09-15 21:14:58.593 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-15 21:14:58.593 [info] > git rev-parse --show-toplevel [9ms]
+2024-09-15 21:14:58.593 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-15 21:14:58.593 [info] [Model][openRepository] Opened repository: /home/ec2-user
+2024-09-15 21:14:58.594 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-15 21:14:58.594 [info] > git config --get commit.template [6ms]
+2024-09-15 21:14:58.594 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-15 21:14:58.594 [warning] [Git][getBranch] No such branch: main
+2024-09-15 21:14:58.594 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-15 21:14:58.594 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-15 21:14:58.594 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-15 21:14:58.594 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-15 21:14:58.594 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-15 21:14:58.594 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-15 21:14:58.594 [info] [Model][openRepository] Opened repository: /home/ec2-user/gitignore
+2024-09-15 21:14:58.594 [info] > git config --get commit.template [4ms]
+2024-09-15 21:14:58.594 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-15 21:14:58.594 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-15 21:14:58.595 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-15 21:14:58.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-09-15 21:14:58.595 [warning] [Git][getBranch] No such branch: master
+2024-09-15 21:14:58.595 [info] > git status -z -uall [9ms]
+2024-09-15 21:14:58.595 [info] > git status -z -uall [100ms] (cancelled)
+2024-09-15 21:14:58.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-09-15 21:14:58.595 [warning] [Git][getBranch] No such branch: master
+2024-09-15 21:14:58.595 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-15 21:14:58.595 [info] > git config --get commit.template [23ms]
+2024-09-15 21:14:58.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-15 21:14:58.595 [warning] [Git][getBranch] No such branch: master
+2024-09-15 21:14:58.595 [info] > git status -z -uall [2ms]
+2024-09-15 21:14:58.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-15 21:14:58.596 [warning] [Git][getBranch] No such branch: master
+2024-09-15 21:14:59.154 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-15 21:14:59.156 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-15 21:14:59.787 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-15 21:14:59.789 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-15 21:16:09.466 [info] > git show --textconv :server.py [68ms]
+2024-09-15 21:16:09.468 [info] > git ls-files --stage -- /home/ec2-user/server.py [67ms]
+2024-09-15 21:16:26.728 [info] > git ls-files --stage -- /home/ec2-user/server.py [2ms]
+2024-09-15 21:16:26.893 [info] > git show --textconv :server.py [5ms]
+2024-09-15 21:18:15.968 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-15 21:18:20.435 [info] > git ls-files --stage -- /home/ec2-user/server.py [3ms]
+2024-09-15 21:18:20.608 [info] > git show --textconv :server.py [2ms]
+2024-09-15 21:19:02.063 [info] > git ls-files --stage -- /home/ec2-user/server.py [1ms]
+2024-09-15 21:19:02.215 [info] > git show --textconv :server.py [2ms]
+2024-09-15 21:20:05.571 [info] > git ls-files --stage -- /home/ec2-user/server.py [1ms]
+2024-09-15 21:20:05.726 [info] > git show --textconv :server.py [1ms]
+2024-09-15 21:21:11.746 [info] > git show --textconv :README.md [13ms]
+2024-09-15 21:21:11.751 [info] > git ls-files --stage -- /home/ec2-user/README.md [5ms]
+2024-09-15 21:21:11.761 [info] > git cat-file -s dc2ae9be1c723cc5c8b848cc3f1d24353d65a7cf [6ms]
+2024-09-15 21:34:10.746 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-15 21:34:11.094 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-15 21:34:11.095 [info] > git config --get commit.template [4ms]
+2024-09-15 21:34:11.096 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-15 21:34:11.097 [warning] [Git][getBranch] No such branch: master
+2024-09-15 21:34:11.105 [info] > git status -z -uall [2ms]
+2024-09-15 21:34:11.109 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-15 21:34:11.109 [warning] [Git][getBranch] No such branch: master
+2024-09-15 21:54:19.920 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/ec2-user/gitignore/.git/HEAD'
+2024-09-15 21:54:19.923 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/ec2-user/gitignore/.git/config'
+2024-09-15 21:54:19.929 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/ec2-user/gitignore/.git/HEAD'
+2024-09-15 21:54:19.945 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/ec2-user/gitignore/.git/config'
+2024-09-15 21:54:20.664 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:54:59.507 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-15 21:54:59.807 [info] > git show --textconv :.gitignore [3ms]
+2024-09-15 21:54:59.809 [info] > git ls-files --stage -- /home/ec2-user/.gitignore [3ms]
+2024-09-15 21:56:06.288 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:56:13.406 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:56:22.257 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:56:26.246 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:56:33.650 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:56:37.172 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:56:40.629 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:56:42.271 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:56:44.336 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:58:18.326 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:58:22.389 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:58:27.629 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:58:38.086 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:58:40.644 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:58:50.054 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:58:56.640 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:59:01.521 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 21:59:07.754 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-15 21:59:18.639 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-15 22:03:09.616 [info] > git show --textconv :.viminfo [2ms]
+2024-09-15 22:03:09.617 [info] > git ls-files --stage -- /home/ec2-user/.viminfo [2ms]
+2024-09-15 22:03:10.691 [info] > git ls-files --stage -- /home/ec2-user/.viminfo [2ms]
+2024-09-15 22:03:10.802 [info] > git show --textconv :.viminfo [2ms]
+2024-09-15 22:03:16.283 [info] > git show --textconv :.gitignore [3ms]
+2024-09-15 22:03:16.285 [info] > git ls-files --stage -- /home/ec2-user/.gitignore [2ms]
+2024-09-15 22:03:23.674 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 22:03:28.473 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-15 22:03:34.379 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 22:03:38.370 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 22:03:41.032 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 22:03:44.503 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-15 22:03:46.437 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 22:03:47.873 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 22:04:31.372 [info] > git ls-files --stage -- /home/ec2-user/.gitignore [1ms]
+2024-09-15 22:04:31.496 [info] > git show --textconv :.gitignore [2ms]
+2024-09-15 22:04:48.397 [info] > git ls-files --stage -- /home/ec2-user/.gitignore [2ms]
+2024-09-15 22:04:48.508 [info] > git show --textconv :.gitignore [2ms]
+2024-09-15 22:06:56.009 [info] > git ls-files --stage -- /home/ec2-user/.gitignore [1ms]
+2024-09-15 22:06:56.127 [info] > git show --textconv :.gitignore [2ms]
+2024-09-15 22:08:44.536 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 22:08:44.803 [info] > git ls-files --stage -- /home/ec2-user/.gitignore [1ms]
+2024-09-15 22:08:44.959 [info] > git show --textconv :.gitignore [2ms]
+2024-09-15 22:11:22.057 [info] > git ls-files --stage -- /home/ec2-user/.gitignore [2ms]
+2024-09-15 22:11:22.182 [info] > git show --textconv :.gitignore [2ms]
+2024-09-15 22:14:31.542 [info] > git ls-files --stage -- /home/ec2-user/.gitignore [3ms]
+2024-09-15 22:14:31.657 [info] > git show --textconv :.gitignore [1ms]
