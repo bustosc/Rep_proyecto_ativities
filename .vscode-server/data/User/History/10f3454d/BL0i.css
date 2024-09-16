@@ -13,7 +13,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-form.activity-form {
+form {
     background-color: #fff;
     padding: 30px;
     border-radius: 8px;
@@ -22,14 +22,13 @@ form.activity-form {
     margin: 0 auto;
 }
 
-form.activity-form label {
+label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-form.activity-form input, 
-form.activity-form textarea {
+input, textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
@@ -39,7 +38,7 @@ form.activity-form textarea {
     font-size: 16px;
 }
 
-form.activity-form input[type="submit"] {
+input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -54,6 +53,6 @@ form.activity-form input[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-form.activity-form input[type="submit"]:hover {
+input[type="submit"]:hover {
     background-color: #45a049;
 }
