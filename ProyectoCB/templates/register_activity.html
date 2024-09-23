@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Actividades Laborales</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleRegister.css') }}">
+</head>
+<body>
+    <h1>Registro de Actividades Laborales</h1>
+    <form action="/register_activity" method="post" enctype="multipart/form-data">
+        <label>Nombre de la Actividad</label> <input type="text" name="activity"> <br> <br>
+        <label>Descripción</label> <input type="text" name="description"> <br> <br>
+        <input type="file" name="document"> <br> <br>
+        <button>Registrar</button>
+    </form>
+</body>
+</html>

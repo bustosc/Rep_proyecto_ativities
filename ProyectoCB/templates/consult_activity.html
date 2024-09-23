@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Actividades Laborales</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleConsult.css') }}">
+    <script src="{{ url_for('static', filename='js/appConsult.js') }}" defer></script>
+</head>
+<body>
+    <h1>Consultar Actividad Laboral</h1>
+    <div>
+        <label>ID de Actividad</label> <input id="activity_id"> <br> <br>
+        <textarea id="txt-response"></textarea> <br> <br>
+        <img id="img-response" src="" alt="Imagen de la actividad" style="max-width: 100%; height: auto;"> <br> <br>
+        <button onclick="consult_activity()">Consultar</button>
+    </div>
+</body>
+</html>
